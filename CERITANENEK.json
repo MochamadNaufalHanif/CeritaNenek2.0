@@ -487,6 +487,198 @@
         "name": "Group 4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Ketuk dimana saja.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ketuk dimana saja.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "e.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Vector (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Vector (1)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Vector (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Vector (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Vector (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Vector (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Vectorr.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Vectorr.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 413.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 413.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 414.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 414.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 416.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 416.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 418.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 418.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../Gdev_EduspaceAssets/CeritaNenek/Group 418.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Gdev_EduspaceAssets\\CeritaNenek\\Group 418.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 419.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 419.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "__.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "__.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 419-.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 419-.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 420.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 420.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 421.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 421.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 393 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 393 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "GELANGG2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GELANGG2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 395.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 395.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 393.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 393.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 394.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 394.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 394 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 394 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Group 395 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 395 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "KOTAK.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "KOTAK.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -742,11 +934,175 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Rara_Nenek",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "MelekMelek",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group 313.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 399,
+                        "y": 0
+                      },
+                      {
+                        "x": 399,
+                        "y": 543
+                      },
+                      {
+                        "x": 0,
+                        "y": 543
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MelekMerem",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group 367.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 399,
+                        "y": 0
+                      },
+                      {
+                        "x": 399,
+                        "y": 543
+                      },
+                      {
+                        "x": 0,
+                        "y": 543
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MeremMelek",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group 368.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 399,
+                        "y": 0
+                      },
+                      {
+                        "x": 399,
+                        "y": 543
+                      },
+                      {
+                        "x": 0,
+                        "y": 543
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "Rara_Nenek"
+      },
       {
         "objectName": "Background"
       },
@@ -1324,162 +1680,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Rara_Nenek",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "MelekMelek",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Group 313.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 399,
-                            "y": 0
-                          },
-                          {
-                            "x": 399,
-                            "y": 543
-                          },
-                          {
-                            "x": 0,
-                            "y": 543
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "MelekMerem",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Group 367.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 399,
-                            "y": 0
-                          },
-                          {
-                            "x": 399,
-                            "y": 543
-                          },
-                          {
-                            "x": 0,
-                            "y": 543
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "MeremMelek",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Group 368.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 399,
-                            "y": 0
-                          },
-                          {
-                            "x": 399,
-                            "y": 543
-                          },
-                          {
-                            "x": 0,
-                            "y": 543
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Judul",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -1560,9 +1760,6 @@
         "children": [
           {
             "objectName": "Judul"
-          },
-          {
-            "objectName": "Rara_Nenek"
           },
           {
             "objectName": "Tmbl_Mulai"
@@ -8334,8 +8531,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "RuangImajinasi_32_40SceneCerita_41",
-      "name": "RuangImajinasi (SceneCerita)",
+      "mangledName": "SceneCerita1",
+      "name": "SceneCerita1",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -8351,14 +8548,19 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513991,
+        "zoomFactor": 0.3028896103896104,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "RuangQuiz"
       },
       "objectsGroups": [],
       "variables": [
         {
           "name": "Urutan",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MasukQuiz",
           "type": "number",
           "value": 0
         }
@@ -8375,7 +8577,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8487,7 +8689,7 @@
           "name": "Pita",
           "persistentUuid": "753a516d-cd8a-4d68-b8f7-c7baa86ff6a0",
           "width": 0,
-          "x": 485,
+          "x": 495,
           "y": 930,
           "zOrder": 4,
           "numberProperties": [],
@@ -8503,9 +8705,42 @@
           "name": "KausKaki",
           "persistentUuid": "984c6535-17ff-4a87-8cfc-aa385e8f9fb7",
           "width": 0,
-          "x": 460,
+          "x": 465,
           "y": 915,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KlikDimanaPun",
+          "persistentUuid": "2a5f51fb-f161-460d-aa90-e33192470bb8",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Petunjuk",
+          "opacity": 0,
+          "persistentUuid": "aa19ed43-e14e-4d45-b3de-bbf58c56395d",
+          "width": 0,
+          "x": 525,
+          "y": 515,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8515,7 +8750,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "__",
+          "name": "Petunjuk",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8524,7 +8759,7 @@
             {
               "name": "Flash",
               "type": "Flash::Flash",
-              "HalfPeriodTime": 0.1,
+              "HalfPeriodTime": 0.3,
               "IsFlashing": false,
               "FlashDuration": 0
             },
@@ -8544,7 +8779,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "__ (1).png",
+                      "image": "Ketuk dimana saja.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8561,19 +8796,19 @@
                         [
                           {
                             "x": 4,
-                            "y": 3
+                            "y": 0
                           },
                           {
-                            "x": 44,
-                            "y": 3
+                            "x": 217,
+                            "y": 0
                           },
                           {
-                            "x": 44,
-                            "y": 25
+                            "x": 217,
+                            "y": 23
                           },
                           {
                             "x": 4,
-                            "y": 25
+                            "y": 23
                           }
                         ]
                       ]
@@ -9092,7 +9327,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "__"
+            "objectName": "Petunjuk"
           },
           {
             "objectName": "Tangan"
@@ -9133,6 +9368,16 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "DialogCerita",
+                "AutoTyping",
+                "no"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -9158,115 +9403,1033 @@
             },
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "DialogCerita",
+                "AutoTyping",
+                "yes"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
                 "",
                 "\"Dialog\""
               ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Petunjuk",
+                "Flash",
+                "0",
+                ""
+              ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "-=-=-",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CompareTimer"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "",
-                "\"Dialog\"",
-                ">=",
-                "7"
+              "comment": "Cerita"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialog\"",
+                    ">=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "150",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "55",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": []
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Waktu nenek ulang tahun yang ke-15, nenek dapat banyak hadiah. Salah satunya dari sahabat nenek yang bernama Fina. Fina memberi tiga hadiah untuk nenek. Hadiahnya adalah…\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Petunjuk",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeInQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "150",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Gelang",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "55",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Petunjuk",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeInQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Gelang",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "150",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Pita",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "55",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Petunjuk",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeInQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Pita",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "150",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "KausKaki",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "55",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Dan yang terakhir, ada sepasang kaus kaki berwarna pink. Fina tahu, Nenek suka memakai kaus kaki pink saat jalan-jalan bersamanya. Jadi, Fina memberikan kaus kaki pink untuk Nenek.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
+              "comment": "Transisi -=-=- CERITA  → QUIZ -=-=-"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Dan yang terakhir, ada sepasang kaus kaki berwarna pink. Fina tahu, Nenek suka memakai kaus kaki pink saat jalan-jalan bersamanya. Jadi, Fina memberikan kaus kaki pink untuk Nenek.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Petunjuk",
+                    "Tween",
+                    "\"Hilang\"",
+                    "0",
+                    "\"easeInQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "KausKaki",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Bayangan",
+                    "Tween",
+                    "\"TransisiLANJUT\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Bayangan",
+                    "Tween",
+                    "\"TransisiLANJUT\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"KuisCerita1\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-              },
-              "parameters": [
-                "Background",
-                "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "50",
-                "\"easeOutQuad\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-              },
-              "parameters": [
-                "Tangan",
-                "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "50",
-                "\"easeOutQuad\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-              },
-              "parameters": [
-                "Tangan",
-                "Tween",
-                "\"Muncul1\"",
-                "150",
-                "\"easeOutQuint\"",
-                "1.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-              },
-              "parameters": [
-                "KotakHadiah",
-                "Tween",
-                "\"Muncul1\"",
-                "55",
-                "\"easeOutQuint\"",
-                "1.5",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 188,
+            "g": 206,
+            "r": 209,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "DialogCerita",
-                "Text",
-                "=",
-                "\"Waktu nenek ulang tahun yang ke-15, nenek dapat banyak hadiah. Salah satunya dari sahabat nenek yang bernama Fina. Fina memberi tiga hadiah untuk nenek. Hadiahnya adalah…\""
-              ]
-            },
             {
               "type": {
                 "value": "AutoTyping::AutoTyping::IsFinished"
@@ -9287,63 +10450,2391 @@
           "actions": [
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "Tangan",
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Petunjuk",
                 "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "100",
+                "\"Muncul\"",
+                "255",
                 "\"easeOutQuad\"",
                 "1",
                 ""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 188,
+            "g": 206,
+            "r": 209,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transisi",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "KuisCerita1",
+      "name": "KuisCerita1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.40761627906976744,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [
+        {
+          "name": "EfekCahaya",
+          "objects": [
+            {
+              "name": "_1"
+            },
+            {
+              "name": "_2"
+            },
+            {
+              "name": "_3"
+            },
+            {
+              "name": "_4"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "MasukQuiz",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "a2a71a79-a7a0-44a2-8cea-230aa5364be3",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rara_Nenek",
+          "persistentUuid": "4d5ed7f5-1431-4b3c-89de-037ed8c468ac",
+          "width": 0,
+          "x": 440,
+          "y": 175,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TeksPesan_RaraNenek",
+          "persistentUuid": "1344509e-118e-4305-9259-a88146ee201c",
+          "width": 0,
+          "x": 350,
+          "y": 85,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KotakPesan_RaraNenek",
+          "persistentUuid": "d409c14e-230c-401f-afa6-d7c43d93af7b",
+          "width": 594,
+          "x": 338,
+          "y": 59,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PapanPetunjuk",
+          "persistentUuid": "4a2a7f11-17c5-4b5e-8771-8494b0c7dc37",
+          "width": 0,
+          "x": 55,
+          "y": -1000,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "_4",
+          "opacity": 0,
+          "persistentUuid": "2f9b212f-d2cf-4f08-9287-b01dab4bea7f",
+          "width": 0,
+          "x": 473,
+          "y": 213,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "_3",
+          "opacity": 0,
+          "persistentUuid": "5b53970c-db80-40d5-be12-33abf7379dcd",
+          "width": 0,
+          "x": 507,
+          "y": 226,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "_2",
+          "persistentUuid": "612b0668-70e6-4863-97f6-09367fbbf153",
+          "width": 0,
+          "x": 125,
+          "y": -1000,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "_1",
+          "opacity": 0,
+          "persistentUuid": "4167fae7-2391-4341-ba07-26d106ae95f3",
+          "width": 0,
+          "x": 501,
+          "y": 235,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Transisi",
+          "name": "Bayangan",
+          "persistentUuid": "33d6290d-89ae-4f59-9f04-4e18cff762e2",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Petunjuk2",
+          "opacity": 0,
+          "persistentUuid": "86d12557-8012-40f8-9088-19fb5c7059ab",
+          "width": 0,
+          "x": 1210,
+          "y": 670,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KlikDimanaPun",
+          "opacity": 0,
+          "persistentUuid": "3f8b24d8-b4dc-417d-b4b6-a767742b7019",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PapanPertanyaan",
+          "persistentUuid": "4003bc6a-95b1-40c1-91ca-4d213c017fb3",
+          "width": 0,
+          "x": 93,
+          "y": -1000,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Poin_Bintang",
+          "opacity": 0,
+          "persistentUuid": "df15f566-64cd-4c5e-a080-248be847f8c1",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PapanPertanyaan",
+          "persistentUuid": "1afc13e9-db3a-4f06-8023-3518c0401e34",
+          "width": 0,
+          "x": 93,
+          "y": 80,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PILIHAN_Pita",
+          "persistentUuid": "e54a0eef-372b-416e-9d11-f167b0fb43ec",
+          "width": 0,
+          "x": 785,
+          "y": 853,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PILIHAN_Gelang_BENAR",
+          "persistentUuid": "d2e7460a-297e-45c0-8c50-bf816219793d",
+          "width": 0,
+          "x": 1077,
+          "y": 848,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PILIHAN_Gelang_SALAH1",
+          "persistentUuid": "cf5d49a8-36c3-4323-b016-922ae5b7c044",
+          "width": 0,
+          "x": 1337,
+          "y": 858,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PILIHAN_Gelang_SALAH2",
+          "persistentUuid": "4ff694de-2d83-44de-8188-75d5b022b46b",
+          "width": 0,
+          "x": 542,
+          "y": 840,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PILIHAN_Gunting",
+          "persistentUuid": "0400b79d-b45e-4f2e-bb29-1a0d82a50bdd",
+          "width": 0,
+          "x": 289,
+          "y": 843,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PILIHAN_KausKaki",
+          "persistentUuid": "f1620e26-a4c7-4155-b079-e279d9c98e7c",
+          "width": 0,
+          "x": 49,
+          "y": 845,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KotakPILIHAN",
+          "persistentUuid": "06686715-0ed9-403d-a847-8bf18178b965",
+          "width": 0,
+          "x": 245,
+          "y": 415,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KotakPILIHAN",
+          "persistentUuid": "f04c74d0-3b03-4db0-a948-e0b03fad775d",
+          "width": 0,
+          "x": 530,
+          "y": 415,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KotakPILIHAN",
+          "persistentUuid": "66383061-f7ca-4c24-9f96-8ee003ad78a6",
+          "width": 0,
+          "x": 815,
+          "y": 415,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PapanPertanyaan",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 420.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 98
+                          },
+                          {
+                            "x": 982,
+                            "y": 98
+                          },
+                          {
+                            "x": 982,
+                            "y": 586
+                          },
+                          {
+                            "x": 98,
+                            "y": 586
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 419-.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 98
+                          },
+                          {
+                            "x": 982,
+                            "y": 98
+                          },
+                          {
+                            "x": 982,
+                            "y": 586
+                          },
+                          {
+                            "x": 98,
+                            "y": 586
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 421.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 98
+                          },
+                          {
+                            "x": 982,
+                            "y": 98
+                          },
+                          {
+                            "x": 982,
+                            "y": 586
+                          },
+                          {
+                            "x": 98,
+                            "y": 586
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Petunjuk2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.3,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "__.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 10
+                          },
+                          {
+                            "x": 49,
+                            "y": 10
+                          },
+                          {
+                            "x": 49,
+                            "y": 31
+                          },
+                          {
+                            "x": 10,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "_1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": " (1)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Vector (1)2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 88,
+                            "y": 91
+                          },
+                          {
+                            "x": 176,
+                            "y": 91
+                          },
+                          {
+                            "x": 176,
+                            "y": 179
+                          },
+                          {
+                            "x": 88,
+                            "y": 179
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "_2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": " (1)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Vector (3).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 315,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 440
+                          },
+                          {
+                            "x": 315,
+                            "y": 440
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "_3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": " (1)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Vector (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 88,
+                            "y": 91
+                          },
+                          {
+                            "x": 176,
+                            "y": 91
+                          },
+                          {
+                            "x": 176,
+                            "y": 179
+                          },
+                          {
+                            "x": 88,
+                            "y": 179
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "_4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": " (1)",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Vectorr.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 88,
+                            "y": 99
+                          },
+                          {
+                            "x": 192,
+                            "y": 99
+                          },
+                          {
+                            "x": 192,
+                            "y": 204
+                          },
+                          {
+                            "x": 88,
+                            "y": 204
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Poin_Bintang",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 416.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 148
+                          },
+                          {
+                            "x": 11,
+                            "y": 148
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 413.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 148
+                          },
+                          {
+                            "x": 11,
+                            "y": 148
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 414.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 148
+                          },
+                          {
+                            "x": 11,
+                            "y": 148
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 418.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 16
+                          },
+                          {
+                            "x": 382,
+                            "y": 148
+                          },
+                          {
+                            "x": 11,
+                            "y": 148
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PapanPetunjuk",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 419.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 98,
+                            "y": 98
+                          },
+                          {
+                            "x": 1068,
+                            "y": 98
+                          },
+                          {
+                            "x": 1068,
+                            "y": 586
+                          },
+                          {
+                            "x": 98,
+                            "y": 586
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "KotakPesan_RaraNenek",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "e.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 597,
+                            "y": 0
+                          },
+                          {
+                            "x": 597,
+                            "y": 118
+                          },
+                          {
+                            "x": 0,
+                            "y": 118
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TeksPesan_RaraNenek",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "AutoTyping",
+              "type": "AutoTyping::AutoTyping",
+              "Text": "Text",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "FullText": "",
+              "TypedText": ""
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Yuk, saatnya menjawab pertanyaan!",
+          "font": "Quicksand_Bold.otf",
+          "textAlignment": "left",
+          "characterSize": 32,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Yuk, saatnya menjawab pertanyaan!",
+            "font": "Quicksand_Bold.otf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PILIHAN_Pita",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 393 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 154
+                          },
+                          {
+                            "x": 4,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PILIHAN_Gelang_BENAR",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 395.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 154
+                          },
+                          {
+                            "x": 4,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PILIHAN_Gunting",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 394 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 154
+                          },
+                          {
+                            "x": 4,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PILIHAN_KausKaki",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 395 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 154
+                          },
+                          {
+                            "x": 4,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PILIHAN_Gelang_SALAH2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 394.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 154
+                          },
+                          {
+                            "x": 4,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PILIHAN_Gelang_SALAH1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 393.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 154
+                          },
+                          {
+                            "x": 4,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "KotakPILIHAN",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "KOTAK.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 0
+                          },
+                          {
+                            "x": 193,
+                            "y": 154
+                          },
+                          {
+                            "x": 4,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "PapanPertanyaan"
+          },
+          {
+            "objectName": "Petunjuk2"
+          },
+          {
+            "objectName": "_1"
+          },
+          {
+            "objectName": "_2"
+          },
+          {
+            "objectName": "_3"
+          },
+          {
+            "objectName": "_4"
+          },
+          {
+            "objectName": "Poin_Bintang"
+          },
+          {
+            "objectName": "PapanPetunjuk"
+          },
+          {
+            "objectName": "KotakPesan_RaraNenek"
+          },
+          {
+            "objectName": "TeksPesan_RaraNenek"
+          },
+          {
+            "objectName": "PILIHAN_Pita"
+          },
+          {
+            "objectName": "PILIHAN_Gelang_BENAR"
+          },
+          {
+            "objectName": "PILIHAN_Gelang_SALAH1"
+          },
+          {
+            "objectName": "PILIHAN_Gelang_SALAH2"
+          },
+          {
+            "objectName": "PILIHAN_Gunting"
+          },
+          {
+            "objectName": "PILIHAN_KausKaki"
+          },
+          {
+            "objectName": "KotakPILIHAN"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "TeksPesan_RaraNenek",
+                "AutoTyping",
+                "no"
+              ]
             },
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "Background",
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Bayangan",
                 "Tween",
-                "\"Menggelap\"",
+                "\"TransisiAWAL\"",
                 "0",
-                "",
-                "-1",
-                "100",
-                "\"easeOutQuad\"",
+                "\"easeInQuad\"",
                 "1",
                 ""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "KotakPILIHAN"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PILIHAN_Gelang_BENAR",
+                    "=",
+                    "KotakPILIHAN.X()",
+                    "=",
+                    "KotakPILIHAN.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "KotakPILIHAN",
+                    ""
+                  ]
+                }
+              ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "KotakPILIHAN"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PILIHAN_Gelang_SALAH2",
+                    "=",
+                    "KotakPILIHAN.X()",
+                    "=",
+                    "KotakPILIHAN.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "KotakPILIHAN",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "KotakPILIHAN"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PILIHAN_Gelang_SALAH1",
+                    "=",
+                    "KotakPILIHAN.X()",
+                    "=",
+                    "KotakPILIHAN.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "KotakPILIHAN",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
-                "Tangan",
+                "Bayangan",
                 "Tween",
-                "\"Muncul1\"",
-                "1000",
-                "\"easeOutQuint\"",
-                "1.5",
-                ""
+                "\"TransisiAWAL\""
               ]
             },
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
-                "KotakHadiah",
+                "Bayangan",
                 "Tween",
-                "\"Muncul1\"",
-                "900",
-                "\"easeOutQuint\"",
-                "1.5",
+                "\"Transisi_QUIZ\"",
+                "0",
+                "\"easeInQuad\"",
+                "1",
                 ""
               ]
             },
@@ -9357,21 +12848,86 @@
             },
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "Tangan",
-                "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "50",
-                "\"easeOutQuad\"",
-                "1",
+                "TeksPesan_RaraNenek",
+                "AutoTyping",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::AutoTyping::IsFinished"
+              },
+              "parameters": [
+                "TeksPesan_RaraNenek",
+                "AutoTyping",
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Bayangan",
+                "Tween",
+                "\"SELESAI_Transisi_QUIZ\"",
+                "255",
+                "\"easeInQuad\"",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "QUIZ 1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Bayangan",
+                "Tween",
+                "\"SELESAI_Transisi_QUIZ\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
@@ -9382,9 +12938,109 @@
                 "\"Menggelap\"",
                 "0",
                 "",
-                "-1",
-                "50",
+                "0",
+                "20",
+                "\"swingTo\"",
+                "0.1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Bayangan",
+                "Tween",
+                "\"Transisi_QUIZ\"",
+                "0",
+                "\"easeInQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Rara_Nenek",
+                "Tween"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "KotakPesan_RaraNenek",
+                "Tween"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TeksPesan_RaraNenek",
+                "Tween"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "PapanPetunjuk",
+                "Tween",
+                "\"Masuk\"",
+                "0",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "EfekCahaya",
+                "Tween",
+                "\"\"",
+                "255",
                 "\"easeOutQuad\"",
+                "0.1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "_1",
+                "Tween",
+                "\"Muncul\"",
+                "10",
+                "450",
+                "\"easeOutQuint\"",
                 "1",
                 ""
               ]
@@ -9394,12 +13050,159 @@
                 "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
-                "Tangan",
+                "_2",
                 "Tween",
-                "\"Muncul2\"",
-                "150",
+                "\"Muncul\"",
+                "0",
                 "\"easeOutQuint\"",
-                "1.5",
+                "1",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "_3",
+                "Tween",
+                "\"Muncul\"",
+                "1050",
+                "145",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "_4",
+                "Tween",
+                "\"Muncul\"",
+                "0",
+                "20",
+                "\"easeOutQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MasukQuiz",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Petunjuk2",
+                "Tween",
+                "\"\"",
+                "255",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "MasukQuiz",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MasukQuiz",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "PapanPetunjuk",
+                "Tween",
+                "\"Keluar\"",
+                "1000",
+                "\"easeInQuint\"",
+                "1",
                 ""
               ]
             },
@@ -9408,114 +13211,85 @@
                 "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
-                "Gelang",
+                "_2",
                 "Tween",
-                "\"Muncul2\"",
-                "55",
+                "\"Keluar\"",
+                "-1000",
+                "\"easeInQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "EfekCahaya",
+                "Tween",
+                "\"\"",
+                "0",
+                "\"easeInQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Petunjuk2",
+                "Tween",
+                "\"\"",
+                "0",
+                "\"easeInQuint\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "PapanPertanyaan",
+                "Tween",
+                "\"Masuk\"",
+                "80",
                 "\"easeOutQuint\"",
-                "1.5",
+                "1",
                 ""
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "Wait"
               },
               "parameters": [
-                "DialogCerita",
-                "Text",
-                "=",
-                "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "DialogCerita",
-                "Text",
-                "=",
-                "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
+                "1"
               ]
             },
             {
               "type": {
-                "value": "AutoTyping::AutoTyping::IsFinished"
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
-                "DialogCerita",
-                "AutoTyping",
+                "Poin_Bintang",
+                "Tween",
+                "\"Muncul\"",
+                "255",
+                "\"linear\"",
+                "1",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogCerita",
-                "Text",
-                "=",
-                "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "DialogCerita",
-                "Text",
-                "=",
-                "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AutoTyping::AutoTyping::IsFinished"
-              },
-              "parameters": [
-                "DialogCerita",
-                "AutoTyping",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogCerita",
-                "Text",
-                "=",
-                "\"Dan yang terakhir, ada sepasang kaus kaki berwarna pink. Fina tahu, Nenek suka memakai kaus kaki pink saat jalan-jalan bersamanya. Jadi, Fina memberikan kaus kaki pink untuk Nenek.\""
               ]
             }
           ]
@@ -9654,6 +13428,10 @@
           "type": "ButtonStates::ButtonFSM"
         },
         {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -9680,6 +13458,486 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "SceneCerita2",
+      "name": "SceneCerita2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "KuisCerita2",
+      "name": "KuisCerita2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "SceneCerita3",
+      "name": "SceneCerita3",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "KuisCerita3",
+      "name": "KuisCerita3",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         },
         {
           "name": "Tween",
