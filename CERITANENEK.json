@@ -1359,6 +1359,136 @@
         "name": "ios-icon-20.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "main menu bgm - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main menu bgm - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button mulai - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button mulai - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button pengaturan - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button pengaturan - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button tutup di setting - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button tutup di setting - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "geser volume kanan kiri - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "geser volume kanan kiri - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sfx ketuk dimana saja - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx ketuk dimana saja - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "kotak informasi muncul - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "kotak informasi muncul - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button benar - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button benar - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pencet barang yang ada di pilihan - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pencet barang yang ada di pilihan - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button skip scene - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button skip scene - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban benar - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban benar - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jawaban salah - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jawaban salah - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3183,11 +3313,120 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Setting_Board",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Group337.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 615,
+                        "y": 0
+                      },
+                      {
+                        "x": 615,
+                        "y": 521
+                      },
+                      {
+                        "x": 0,
+                        "y": 521
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Sldr_Musik",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "BGM",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {}
+    },
+    {
+      "assetStoreId": "",
+      "name": "Sldr_Suara",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variant": "SFX",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {}
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Setting",
+        "children": [
+          {
+            "objectName": "Sldr_Suara"
+          },
+          {
+            "objectName": "Sldr_Musik"
+          },
+          {
+            "objectName": "Setting_Board"
+          }
+        ]
+      },
       {
         "objectName": "Rara_Nenek"
       },
@@ -3273,6 +3512,31 @@
     }
   ],
   "variables": [
+    {
+      "name": "temp",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "GameStorage",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Settings",
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 75
+            },
+            {
+              "type": "number",
+              "value": 45
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Giliran",
       "type": "number",
@@ -3475,101 +3739,6 @@
         }
       ],
       "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Setting_Board",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Group337.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 615,
-                            "y": 0
-                          },
-                          {
-                            "x": 615,
-                            "y": 521
-                          },
-                          {
-                            "x": 0,
-                            "y": 521
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Sldr_Musik",
-          "type": "PanelSpriteSlider::PanelSpriteSlider",
-          "variant": "BGM",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "content": {}
-        },
-        {
-          "assetStoreId": "",
-          "name": "Sldr_Suara",
-          "type": "PanelSpriteSlider::PanelSpriteSlider",
-          "variant": "SFX",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "content": {}
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
@@ -3931,20 +4100,18 @@
             "objectName": "Tmbl_Pengaturan"
           },
           {
-            "objectName": "Setting_Board"
-          },
-          {
-            "objectName": "Sldr_Musik"
-          },
-          {
-            "objectName": "Sldr_Suara"
-          },
-          {
             "objectName": "Tmbl_Tutup"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -3969,6 +4136,19 @@
                 "0",
                 "\"easeInOutQuad\"",
                 "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main menu bgm - cerita nenek.wav",
+                "1",
+                "yes",
+                "",
                 ""
               ]
             }
@@ -4131,6 +4311,19 @@
                 "1",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button mulai - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -4149,6 +4342,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "FadeMusicVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "ActivateBehavior"
@@ -4228,6 +4432,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button pengaturan - cerita nenek.wav",
+                    "2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -4407,6 +4624,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button tutup di setting - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -5651,6 +5881,13 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -9432,6 +9669,13 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -9699,6 +9943,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sfx ketuk dimana saja - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ActivateBehavior"
@@ -10339,6 +10596,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -10594,6 +10864,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -10837,6 +11120,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -11084,6 +11380,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -11327,6 +11636,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -11574,6 +11896,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -11817,6 +12152,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -12064,6 +12412,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -12309,6 +12670,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -12552,6 +12926,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -13583,6 +13970,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -13896,6 +14296,28 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
@@ -14682,6 +15104,13 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -16538,7 +16967,13 @@
           "name": "PapanPertanyaan1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -16613,7 +17048,13 @@
           "name": "PILIHAN_Pita",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -16703,7 +17144,13 @@
           "name": "PILIHAN_Gelang_BENAR",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -16793,7 +17240,13 @@
           "name": "PILIHAN_Gunting",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -16883,7 +17336,13 @@
           "name": "PILIHAN_KausKaki",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -16973,7 +17432,13 @@
           "name": "PILIHAN_Gelang_SALAH2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -17063,7 +17528,13 @@
           "name": "PILIHAN_Gelang_SALAH1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -17213,7 +17684,13 @@
           "name": "PapanPertanyaan2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -17288,7 +17765,14 @@
           "name": "PapanPertanyaan3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "c7c70224-c0f7-42ca-b253-071552bde782",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -17363,7 +17847,14 @@
           "name": "PILIHAN_Benar",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "c7c70224-c0f7-42ca-b253-071552bde782",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -17453,7 +17944,14 @@
           "name": "PILIHAN_Salah",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "c7c70224-c0f7-42ca-b253-071552bde782",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -17580,6 +18078,13 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -17875,7 +18380,20 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "kotak informasi muncul - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
               ]
             },
             {
@@ -18056,6 +18574,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button skip scene - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -18362,12 +18893,13 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Tween::HasFinished"
+                    "value": "OpacityCapability::OpacityBehavior::Value"
                   },
                   "parameters": [
                     "Pertanyaan_Pilihan1",
-                    "Tween",
-                    "\"Muncul\""
+                    "Opacity",
+                    "=",
+                    "255"
                   ]
                 },
                 {
@@ -18601,12 +19133,13 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Tween::HasFinished"
+                    "value": "OpacityCapability::OpacityBehavior::Value"
                   },
                   "parameters": [
                     "Pertanyaan_Pilihan2",
-                    "Tween",
-                    "\"Muncul\""
+                    "Opacity",
+                    "=",
+                    "255"
                   ]
                 },
                 {
@@ -18729,12 +19262,13 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Tween::HasFinished"
+                    "value": "OpacityCapability::OpacityBehavior::Value"
                   },
                   "parameters": [
                     "Pertanyaan_Pilihan3",
-                    "Tween",
-                    "\"Muncul\""
+                    "Opacity",
+                    "=",
+                    "255"
                   ]
                 },
                 {
@@ -18770,6 +19304,7 @@
               "comment": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18812,12 +19347,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -18838,6 +19397,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -18855,6 +19425,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -18923,49 +19514,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan1",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19008,12 +19557,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -19034,6 +19607,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -19051,6 +19635,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -19119,49 +19724,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan2",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19186,12 +19749,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -19212,6 +19799,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -19229,6 +19827,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -19292,49 +19911,6 @@
                         ""
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan3",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
                   ]
                 }
               ]
@@ -19429,6 +20005,7 @@
               "comment": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19453,6 +20030,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -19461,11 +20049,35 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
                     "1"
                   ]
                 }
@@ -19485,6 +20097,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -19553,49 +20186,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan1",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19620,6 +20211,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -19628,11 +20230,35 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
                     "1"
                   ]
                 }
@@ -19652,6 +20278,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -19720,49 +20367,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan2",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19787,6 +20392,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -19795,11 +20411,35 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
                     "1"
                   ]
                 }
@@ -19819,6 +20459,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -19887,49 +20548,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan3",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -20290,6 +20909,59 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Warna",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Soal1",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -20991,6 +21663,13 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -22842,7 +23521,14 @@
           "name": "PapanPertanyaan1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "7dd98b34-c49a-4639-a189-5b57fa4b3b6c",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -22917,7 +23603,14 @@
           "name": "PapanPertanyaan2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "4029a01f-ef47-461d-b189-9357543ebdfb",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -22992,7 +23685,13 @@
           "name": "PapanPertanyaan3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23127,7 +23826,13 @@
           "name": "PILIHAN_Topi",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23217,7 +23922,13 @@
           "name": "PILIHAN_Gaun",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23307,7 +24018,13 @@
           "name": "PILIHAN_Sepatu",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23397,7 +24114,14 @@
           "name": "PILIHAN_Kamera",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "4029a01f-ef47-461d-b189-9357543ebdfb",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23487,7 +24211,14 @@
           "name": "PILIHAN_Tas",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "4029a01f-ef47-461d-b189-9357543ebdfb",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23577,7 +24308,14 @@
           "name": "PILIHAN_Benar",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "7dd98b34-c49a-4639-a189-5b57fa4b3b6c",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23667,7 +24405,14 @@
           "name": "PILIHAN_Salah",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "7dd98b34-c49a-4639-a189-5b57fa4b3b6c",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -23791,6 +24536,13 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -24086,7 +24838,20 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "kotak informasi muncul - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
               ]
             },
             {
@@ -24267,6 +25032,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button skip scene - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -24503,6 +25281,7 @@
               "comment": "2"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -24741,6 +25520,7 @@
               "comment": "3"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -24979,6 +25759,7 @@
               "comment": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -25003,12 +25784,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -25029,6 +25834,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -25046,6 +25862,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -25114,49 +25951,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan1",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -25199,12 +25994,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -25225,6 +26044,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -25242,6 +26072,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -25310,49 +26161,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan2",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -25395,12 +26204,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -25421,6 +26254,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -25438,6 +26282,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -25501,49 +26366,6 @@
                         ""
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan3",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
                   ]
                 }
               ]
@@ -25638,6 +26460,7 @@
               "comment": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -25662,6 +26485,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -25670,11 +26504,35 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
                     "1"
                   ]
                 }
@@ -25694,6 +26552,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -25762,49 +26641,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan1",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -25829,6 +26666,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -25837,11 +26685,35 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
                     "1"
                   ]
                 }
@@ -25861,6 +26733,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -25929,49 +26822,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan2",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -25996,6 +26847,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -26004,11 +26866,35 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet barang yang ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
                     "1"
                   ]
                 }
@@ -26028,6 +26914,27 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "3",
+                        "",
+                        "80",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ActivateBehavior"
@@ -26096,49 +27003,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan3",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -27227,6 +28092,13 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -28732,7 +29604,14 @@
           "name": "PILIHAN_Benar",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "941a878d-2515-4aad-87dd-29e12de18d13",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -28822,7 +29701,14 @@
           "name": "PILIHAN_Salah",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "941a878d-2515-4aad-87dd-29e12de18d13",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -28912,7 +29798,14 @@
           "name": "PapanPertanyaan1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "941a878d-2515-4aad-87dd-29e12de18d13",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -28987,7 +29880,14 @@
           "name": "PapanPertanyaan2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "ce6a982c-9956-4756-aa2b-82231767f9fa",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -29062,7 +29962,14 @@
           "name": "PapanPertanyaan3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "9fd34eaf-e265-4f21-a72e-36f0f6d755eb",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -29137,7 +30044,14 @@
           "name": "PapanPertanyaan4",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "9f7f8249-4d0e-4c8c-9ba7-80b8062df7f9",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -29212,7 +30126,14 @@
           "name": "PapanPertanyaan5",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Klik",
+              "persistentUuid": "3657794a-6891-4cb1-bcf9-9b327623c2fb",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -29310,6 +30231,13 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Sound & Music"
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -29400,6 +30328,26 @@
               },
               "parameters": [
                 "Pertanyaan_Pilihan3",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Pertanyaan_Pilihan4",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Pertanyaan_Pilihan5",
                 "ButtonFSM",
                 "no"
               ]
@@ -29604,7 +30552,20 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "kotak informasi muncul - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
               ]
             },
             {
@@ -29785,6 +30746,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button skip scene - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -29998,6 +30972,14 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -30124,6 +31106,14 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -30254,6 +31244,14 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -30380,6 +31378,14 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -30510,6 +31516,14 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -30533,6 +31547,7 @@
               "comment": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -30557,12 +31572,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -30582,6 +31621,25 @@
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -30612,6 +31670,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -30668,49 +31739,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan1",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -30735,12 +31764,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -30760,6 +31813,25 @@
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -30790,6 +31862,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -30846,49 +31931,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan2",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -30913,12 +31956,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -30938,6 +32005,25 @@
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -30968,6 +32054,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -31024,49 +32123,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan3",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -31091,12 +32148,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -31116,6 +32197,25 @@
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -31146,6 +32246,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -31202,49 +32315,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan4",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -31269,12 +32340,36 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -31294,6 +32389,25 @@
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -31320,6 +32434,19 @@
                         "Pertanyaan_Pilihan5",
                         "ButtonFSM",
                         "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban salah - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
                       ]
                     },
                     {
@@ -31375,49 +32502,6 @@
                         ""
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan5",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
                   ]
                 }
               ]
@@ -31512,6 +32596,7 @@
               "comment": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -31536,6 +32621,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -31544,12 +32640,44 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -31580,6 +32708,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -31636,49 +32777,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan1",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -31703,6 +32802,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -31711,12 +32821,44 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -31747,6 +32889,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -31803,49 +32958,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan2",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -31870,6 +32983,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -31878,12 +33002,44 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -31914,6 +33070,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -31970,49 +33139,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan3",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32037,6 +33164,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -32045,12 +33183,44 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -32081,6 +33251,19 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -32137,49 +33320,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan4",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32204,6 +33345,17 @@
                 },
                 {
                   "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "Klik",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -32212,12 +33364,44 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "pencet benar atau salah yg ada di pilihan - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Pertanyaan_SaatIni",
                     "+",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "Klik",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
                   ]
                 }
               ],
@@ -32244,6 +33428,19 @@
                         "Pertanyaan_Pilihan5",
                         "ButtonFSM",
                         "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "jawaban benar - cerita nenek.wav",
+                        "1",
+                        "",
+                        "",
+                        ""
                       ]
                     },
                     {
@@ -32304,49 +33501,7 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "Pertanyaan_Pilihan5",
-                    "Tween",
-                    "\"Hilang\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "Pertanyaan_SaatIni",
-                    "0",
-                    "0",
-                    "30"
-                  ]
-                }
-              ]
-            },
-            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -32803,9 +33958,356 @@
           "type": "Tween::TweenBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Sound_32_38_32Music",
+      "name": "Sound & Music",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "FlashOpacity",
+          "type": "Flash::FlashOpacity"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Sound & Music",
+      "name": "Sound & Music",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "GameStorage"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "Sldr_Musik",
+                "=",
+                "GameStorage.Settings[0]",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "Sldr_Suara",
+                "=",
+                "GameStorage.Settings[1]",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "Sldr_Musik",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GameStorage.Settings[0]",
+                "=",
+                "Sldr_Musik.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "geser volume kanan kiri - cerita nenek.wav",
+                "2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "Sldr_Suara",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "geser volume kanan kiri - cerita nenek.wav",
+                "2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GameStorage.Settings[1]",
+                "=",
+                "Sldr_Suara.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GameStorage.Settings[0]"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "GameStorage.Settings[1]"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "GameStorage.Settings[1]"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"GameStorage\"",
+                "\"SavingSystemLevel\"",
+                "ToJSON(GameStorage)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
@@ -53549,6 +55051,170 @@
       ],
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "General",
+      "extensionNamespace": "",
+      "fullName": "JSON Resource Loading",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZpbGUtY29kZS1vdXRsaW5lIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE0IDJINkM0Ljg5IDIgNCAyLjkgNCA0VjIwQzQgMjEuMTEgNC44OSAyMiA2IDIySDE4QzE5LjExIDIyIDIwIDIxLjExIDIwIDIwVjhMMTQgMk0xOCAyMEg2VjRIMTNWOUgxOFYyME05LjU0IDE1LjY1TDExLjYzIDE3Ljc0TDEwLjM1IDE5TDcgMTUuNjVMMTAuMzUgMTIuM0wxMS42MyAxMy41Nkw5LjU0IDE1LjY1TTE3IDE1LjY1TDEzLjY1IDE5TDEyLjM4IDE3Ljc0TDE0LjQ3IDE1LjY1TDEyLjM4IDEzLjU2TDEzLjY1IDEyLjNMMTcgMTUuNjVaIiAvPjwvc3ZnPg==",
+      "name": "JSONResourceLoader",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/file-code-outline.svg",
+      "shortDescription": "Loads a JSON resource into a variable.",
+      "version": "1.0.0",
+      "description": [
+        "Loads a (static) JSON resource from your project files into a global, scene, or object variable.",
+        "",
+        "NEVER use this to load your game.json into a variable - this would increase your game size by a lot and make your whole project file available for anyone to open!"
+      ],
+      "origin": {
+        "identifier": "JSONResourceLoader",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "json",
+        "resource",
+        "load",
+        "open",
+        "file",
+        "data",
+        "static",
+        "file"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Loads a JSON resource into a scene structure variable.",
+          "fullName": "Load a JSON resource in a scene variable",
+          "functionType": "Action",
+          "name": "LoadJSONToScene",
+          "sentence": "Load _PARAM1_ into scene variable _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext",
+                "    .getArgument(\"Variable\")",
+                "    .fromJSObject(",
+                "        runtimeScene",
+                "            .getGame()",
+                "            .getJsonManager()",
+                "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+                "    );",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The resource to load the JSON from",
+              "name": "Resource",
+              "type": "jsonResource"
+            },
+            {
+              "description": "The scene variable to load the JSON to",
+              "name": "Variable",
+              "type": "scenevar"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Loads a JSON resource into a global structure variable.",
+          "fullName": "Load a JSON resource in a global variable",
+          "functionType": "Action",
+          "name": "LoadJSONToGlobal",
+          "sentence": "Load _PARAM1_ into global variable _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext",
+                "    .getArgument(\"Variable\")",
+                "    .fromJSObject(",
+                "        runtimeScene",
+                "            .getGame()",
+                "            .getJsonManager()",
+                "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+                "    );",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The resource to load the JSON from",
+              "name": "Resource",
+              "type": "jsonResource"
+            },
+            {
+              "description": "The global variable to load the JSON to",
+              "name": "Variable",
+              "type": "globalvar"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Loads a JSON resource into an object structure variable.",
+          "fullName": "Load a JSON resource in an object variable",
+          "functionType": "Action",
+          "name": "LoadJSONToObject",
+          "sentence": "Load _PARAM1_ into object variable _PARAM3_ of object _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext",
+                "    .getArgument(\"Variable\")",
+                "    .fromJSObject(",
+                "        runtimeScene",
+                "            .getGame()",
+                "            .getJsonManager()",
+                "            .getLoadedJson(eventsFunctionContext.getArgument(\"Resource\"))",
+                "    );",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The resource to load the JSON from",
+              "name": "Resource",
+              "type": "jsonResource"
+            },
+            {
+              "description": "The object where to find the variable",
+              "name": "Object",
+              "type": "objectList"
+            },
+            {
+              "description": "The object variable to load the JSON to",
+              "name": "Variable",
+              "type": "objectvar"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": [
@@ -53561,7 +55227,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Soal1",
           "name": "PapanPertanyaan1",
           "opacity": 0,
           "persistentUuid": "6dced64d-90f6-4afc-b056-493e97ec3323",
@@ -53578,7 +55244,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Soal1",
           "name": "KotakPILIHAN",
           "opacity": 0,
           "persistentUuid": "3c3ad1d3-07bb-4223-a52b-c2d7beffb415",
@@ -53595,7 +55261,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Soal1",
           "name": "KotakPILIHAN",
           "opacity": 0,
           "persistentUuid": "20251a92-960f-4c40-a52a-e9e99b601ddf",
@@ -53612,7 +55278,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Soal1",
           "name": "KotakPILIHAN",
           "opacity": 0,
           "persistentUuid": "57f44321-ec80-4a5d-bf55-0be2d4f1292b",
@@ -53629,7 +55295,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Soal1",
           "name": "PILIHAN_Gelang_BENAR",
           "opacity": 0,
           "persistentUuid": "390502b5-ed28-4558-9065-ad591b41c1df",
@@ -53646,7 +55312,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Soal1",
           "name": "PILIHAN_Gelang_SALAH1",
           "opacity": 0,
           "persistentUuid": "a58bb5c2-6274-477d-af50-126601b4869a",
@@ -53663,7 +55329,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Soal1",
           "name": "PILIHAN_Gelang_SALAH2",
           "opacity": 0,
           "persistentUuid": "6478c17f-37f5-417e-8ebf-702a854d72a5",
