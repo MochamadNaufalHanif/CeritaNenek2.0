@@ -1489,6 +1489,194 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "main gameplay bgm - cerita nenel.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main gameplay bgm - cerita nenel.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "halo, namaku rara dan kali ini kamu akan menjadi aku di dalam permainan ini - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "halo, namaku rara dan kali ini kamu akan menjadi aku di dalam permainan ini - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "kita akan mendengarkan cerita seru dari Nenek. Tapi ingat ya, kamu harus fokus dan menyimak baik-baik! Setelah cerita selesai, akan ada pertanyaan yang harus kamu jawab.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "kita akan mendengarkan cerita seru dari Nenek. Tapi ingat ya, kamu harus fokus dan menyimak baik-baik! Setelah cerita selesai, akan ada pertanyaan yang harus kamu jawab.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "selamat bersenang-senang!.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "selamat bersenang-senang!.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "bgm saat nenek menceritakan - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bgm saat nenek menceritakan - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[story] Bumi adalah planet tempat kita tinggal.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[story] Bumi adalah planet tempat kita tinggal.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[story] Nenek dan Sekar pergi ke museum planet di Jakarta. Di sana ada banyak patung planet dengan berbagai bentuk dan ukuran. Salah satunya adalah patung planet Bumi.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[story] Nenek dan Sekar pergi ke museum planet di Jakarta. Di sana ada banyak patung planet dengan berbagai bentuk dan ukuran. Salah satunya adalah patung planet Bumi.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[rara] nenek sedang apa - cerita nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[rara] nenek sedang apa - cerita nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[nenek] nenek teringat masa lalu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[nenek] nenek teringat masa lalu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[nenek] dulu waktu nenek masih muda banyak sekali kenangan indah.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[nenek] dulu waktu nenek masih muda banyak sekali kenangan indah.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[rara] waktu nenek masih muda dulu_.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[rara] waktu nenek masih muda dulu_.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[nenek] iya, apa rara mau mendengar kisah nenek saat muda dulu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[nenek] iya, apa rara mau mendengar kisah nenek saat muda dulu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[nenek] iya, apa rara mau mendengar kisah nenek saat muda dulu2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[nenek] iya, apa rara mau mendengar kisah nenek saat muda dulu2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[rara] terus hadiah apa yang diberikan ayah dan ibu kepada nenek.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[rara] terus hadiah apa yang diberikan ayah dan ibu kepada nenek.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[nenek] keesokan harinya, sahabat nenek yang bernama sekar mengajak nenek untuk pergi berlibur.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[nenek] keesokan harinya, sahabat nenek yang bernama sekar mengajak nenek untuk pergi berlibur.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[rara] iya, rara mau!.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[rara] iya, rara mau!.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "_SE2DD~1.WAV",
+        "kind": "audio",
+        "metadata": "",
+        "name": "_SE2DD~1.WAV",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "_SE2DD~2.WAV",
+        "kind": "audio",
+        "metadata": "",
+        "name": "_SE2DD~2.WAV",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 455.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 455.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5252,7 +5440,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5284,7 +5472,7 @@
           "name": "Pesan2",
           "persistentUuid": "fd7c7aeb-dbae-4abc-a4d7-c77e275d2914",
           "width": 875,
-          "x": 215,
+          "x": 195,
           "y": 125,
           "zOrder": 7,
           "numberProperties": [],
@@ -5320,6 +5508,23 @@
           "x": 400,
           "y": 100,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tmbl_Kembali",
+          "opacity": 0,
+          "persistentUuid": "c7cc8cda-33d7-45d0-849f-1a63b6d7742c",
+          "width": 0,
+          "x": 10,
+          "y": 620,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5567,7 +5772,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.08,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -5689,7 +5894,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.075,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -5852,6 +6057,96 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tmbl_Kembali",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.05,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 455.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 210,
+                            "y": 0
+                          },
+                          {
+                            "x": 210,
+                            "y": 88
+                          },
+                          {
+                            "x": 0,
+                            "y": 88
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5877,6 +6172,9 @@
           },
           {
             "objectName": "Pesan3"
+          },
+          {
+            "objectName": "Tmbl_Kembali"
           }
         ]
       },
@@ -5901,6 +6199,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main gameplay bgm - cerita nenel.wav",
+                "1",
+                "",
+                "80",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ActivateBehavior"
@@ -5947,6 +6258,20 @@
             },
             {
               "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Tmbl_Kembali",
+                "Tween",
+                "\"Muncul\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -5972,16 +6297,6 @@
                 "KlikDimanaPun",
                 "ButtonFSM",
                 "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Sekarang",
-                "=",
-                "1"
               ]
             }
           ]
@@ -6017,7 +6332,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "1"
+                    "0"
                   ]
                 },
                 {
@@ -6072,40 +6387,7 @@
                     "AutoTyping",
                     "yes"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Sekarang",
-                    "=",
-                    "1"
-                  ]
                 },
-                {
-                  "type": {
-                    "value": "AutoTyping::AutoTyping::IsFinished"
-                  },
-                  "parameters": [
-                    "Pesan1",
-                    "AutoTyping",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -6115,6 +6397,19 @@
                     "ButtonFSM",
                     "yes"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "halo, namaku rara dan kali ini kamu akan menjadi aku di dalam permainan ini - cerita nenek.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -6128,7 +6423,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "1"
+                    "0"
                   ]
                 },
                 {
@@ -6149,6 +6444,122 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Sekarang",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "Pesan1",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "Pesan1",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Sekarang",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Sekarang",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -6194,7 +6605,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "2"
+                    "3"
                   ]
                 }
               ]
@@ -6255,7 +6666,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "2"
+                    "3"
                   ]
                 },
                 {
@@ -6310,40 +6721,7 @@
                     "AutoTyping",
                     "yes"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Sekarang",
-                    "=",
-                    "2"
-                  ]
                 },
-                {
-                  "type": {
-                    "value": "AutoTyping::AutoTyping::IsFinished"
-                  },
-                  "parameters": [
-                    "Pesan2",
-                    "AutoTyping",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -6353,6 +6731,19 @@
                     "ButtonFSM",
                     "yes"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "kita akan mendengarkan cerita seru dari Nenek. Tapi ingat ya, kamu harus fokus dan menyimak baik-baik! Setelah cerita selesai, akan ada pertanyaan yang harus kamu jawab.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -6366,7 +6757,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "2"
+                    "3"
                   ]
                 },
                 {
@@ -6387,6 +6778,122 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Sekarang",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "Pesan2",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "Pesan2",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Sekarang",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Sekarang",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -6432,7 +6939,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "3"
+                    "6"
                   ]
                 }
               ]
@@ -6493,7 +7000,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "3"
+                    "6"
                   ]
                 },
                 {
@@ -6548,22 +7055,35 @@
                     "AutoTyping",
                     "yes"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "selamat bersenang-senang!.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Sekarang",
-                    "=",
-                    "3"
-                  ]
-                },
                 {
                   "type": {
                     "value": "AutoTyping::AutoTyping::IsFinished"
@@ -6582,59 +7102,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Sekarang",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    "no"
-                  ]
-                },
                 {
                   "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
@@ -6665,12 +7132,13 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "FadeSoundVolume"
                   },
                   "parameters": [
-                    "Sekarang",
-                    "=",
-                    "4"
+                    "",
+                    "5",
+                    "20",
+                    "1.5"
                   ]
                 }
               ]
@@ -6697,7 +7165,7 @@
                   "parameters": [
                     "Sekarang",
                     "=",
-                    "4"
+                    "6"
                   ]
                 },
                 {
@@ -6771,6 +7239,70 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Tmbl_Kembali",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Bayangan",
+                "Tween",
+                "\"TransisiKEMBALI\"",
+                "255",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Bayangan",
+                "Tween",
+                "\"TransisiKEMBALI\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"RuangUtama (SceneHome)\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -6904,6 +7436,10 @@
         {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "ButtonScaleTween",
+          "type": "ButtonStates::ButtonScaleTween"
         },
         {
           "name": "Effect",
@@ -8189,7 +8725,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.06,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -8311,7 +8847,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.075,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -8490,7 +9026,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.08,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -10476,16 +11012,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan1_Rara",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -10515,6 +11041,29 @@
                     "50",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan1_Rara",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[rara] nenek sedang apa - cerita nenek.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -10744,16 +11293,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan1_Nenek",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -10783,6 +11322,29 @@
                     "50",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan1_Nenek",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[nenek] nenek teringat masa lalu.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -11002,16 +11564,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan2_Nenek",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -11041,6 +11593,29 @@
                     "50",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan2_Nenek",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[nenek] dulu waktu nenek masih muda banyak sekali kenangan indah.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -11260,16 +11835,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan2_Rara",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -11299,6 +11864,29 @@
                     "50",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan2_Rara",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[rara] waktu nenek masih muda dulu_.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -11518,16 +12106,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan3_Nenek",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -11557,6 +12135,29 @@
                     "100",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan3_Nenek",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[nenek] iya, apa rara mau mendengar kisah nenek saat muda dulu.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -11776,16 +12377,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan3_Rara",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -11815,6 +12406,29 @@
                     "50",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan3_Rara",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[rara] iya, rara mau!.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -12034,16 +12648,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan4_Rara",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -12073,6 +12677,29 @@
                     "50",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan4_Rara",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[rara] terus hadiah apa yang diberikan ayah dan ibu kepada nenek.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -12292,16 +12919,6 @@
                 },
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "TeksPesan4_Nenek",
-                    "AutoTyping",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
                   },
                   "parameters": [
@@ -12331,6 +12948,29 @@
                     "100",
                     "\"easeOutQuad\"",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "TeksPesan4_Nenek",
+                    "AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[nenek] keesokan harinya, sahabat nenek yang bernama sekar mengajak nenek untuk pergi berlibur.wav",
+                    "5",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -15206,6 +15846,19 @@
               "parameters": [
                 "",
                 "\"Dialog\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "_SE2DD~2.WAV",
+                "5",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -18118,6 +18771,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main gameplay bgm - cerita nenel.wav",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -18380,20 +19046,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "kotak informasi muncul - cerita nenek.wav",
-                "1",
-                "",
-                "",
-                ""
+                "0.3"
               ]
             },
             {
@@ -18416,6 +19069,19 @@
               },
               "parameters": [
                 "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "kotak informasi muncul - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
               ]
             },
             {
@@ -21685,6 +22351,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "bgm saat nenek menceritakan - cerita nenek.wav",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
@@ -24574,6 +25253,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main gameplay bgm - cerita nenel.wav",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ActivateBehavior"
@@ -27486,7 +28178,13 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Sekarang",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -27516,7 +28214,7 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27944,7 +28642,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.08,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -28264,6 +28962,19 @@
             },
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "[story] Nenek dan Sekar pergi ke museum planet di Jakarta. Di sana ada banyak patung planet dengan berbagai bentuk dan ukuran. Salah satunya adalah patung planet Bumi.wav",
+                "5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -28452,16 +29163,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -28566,6 +29267,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AutoTyping::AutoTyping::SetInterval"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "=",
+                    "0.95",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -28632,6 +29345,19 @@
                     "Text",
                     "=",
                     "\"Bumi adalah planet tempat kita tinggal.\nBumi berbentuk bulat seperti bola. Di Bumi, ada tanah, laut, udara, tumbuhan, hewan, dan manusia. Karena itu, Bumi disebut planet yang bisa dihuni.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[story] Bumi adalah planet tempat kita tinggal.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
@@ -30268,6 +30994,19 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "main gameplay bgm - cerita nenel.wav",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ActivateBehavior"
