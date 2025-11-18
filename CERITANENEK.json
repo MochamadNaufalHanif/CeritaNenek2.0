@@ -15770,7 +15770,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.085,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -16158,16 +16158,6 @@
             },
             {
               "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "DialogCerita",
-                "AutoTyping",
-                "yes"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -16186,6 +16176,368 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "DialogCerita",
+                "AutoTyping",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Urutan",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "DialogCerita",
+                "Text",
+                "=",
+                "\"Waktu nenek ulang tahun yang ke-15, nenek dapat banyak hadiah. Salah satunya dari sahabat nenek yang bernama Fina. Fina memberi tiga hadiah untuk nenek. Hadiahnya adalah…\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sfx ketuk dimana saja - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Urutan",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button skip scene - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Urutan",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+              },
+              "parameters": [
+                "Tangan",
+                "Tween",
+                "\"Menggelap\"",
+                "0",
+                "",
+                "-1",
+                "50",
+                "\"easeOutQuad\"",
+                "0.1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+              },
+              "parameters": [
+                "Background",
+                "Tween",
+                "\"Menggelap\"",
+                "0",
+                "",
+                "-1",
+                "50",
+                "\"easeOutQuad\"",
+                "0.1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+              },
+              "parameters": [
+                "DialogCerita",
+                "AutoTyping",
+                "94"
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::AutoTyping::ShowFullText"
+              },
+              "parameters": [
+                "DialogCerita",
+                "AutoTyping",
+                "95"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Tangan",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "KotakHadiah",
+                "=",
+                "55"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Urutan",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Urutan",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sfx ketuk dimana saja - cerita nenek.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+              },
+              "parameters": [
+                "Tangan",
+                "Tween",
+                "\"Menggelap\"",
+                "0",
+                "",
+                "-1",
+                "100",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+              },
+              "parameters": [
+                "Background",
+                "Tween",
+                "\"Menggelap\"",
+                "0",
+                "",
+                "-1",
+                "100",
+                "\"easeOutQuad\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Tangan",
+                "Tween",
+                "\"Muncul1\"",
+                "1000",
+                "\"easeOutQuint\"",
+                "1.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "KotakHadiah",
+                "Tween",
+                "\"Muncul1\"",
+                "900",
+                "\"easeOutQuint\"",
+                "1.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Urutan",
+                "=",
+                "3"
               ]
             }
           ]
@@ -16228,13 +16580,23 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CompareTimer"
                   },
                   "parameters": [
                     "",
                     "\"Dialog\"",
                     ">=",
-                    "7"
+                    "8"
                   ]
                 },
                 {
@@ -16326,12 +16688,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    ""
+                    "Urutan",
+                    "=",
+                    "3"
                   ]
                 },
                 {
@@ -16365,82 +16727,25 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "KlikDimanaPun",
                     "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-                  },
-                  "parameters": [
-                    "Tangan",
-                    "Tween",
-                    "\"Menggelap\"",
-                    "0",
-                    "",
-                    "-1",
-                    "100",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-                  },
-                  "parameters": [
-                    "Background",
-                    "Tween",
-                    "\"Menggelap\"",
-                    "0",
-                    "",
-                    "-1",
-                    "100",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Tangan",
-                    "Tween",
-                    "\"Muncul1\"",
-                    "1000",
-                    "\"easeOutQuint\"",
-                    "1.5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "KotakHadiah",
-                    "Tween",
-                    "\"Muncul1\"",
-                    "900",
-                    "\"easeOutQuint\"",
-                    "1.5",
-                    ""
+                    "yes"
                   ]
                 },
                 {
@@ -16449,6 +16754,29 @@
                   },
                   "parameters": [
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::SetInterval"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "=",
+                    "0.095",
+                    ""
                   ]
                 },
                 {
@@ -16525,35 +16853,22 @@
                     "1.5",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "Text",
-                    "=",
-                    "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
-                  ]
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": ""
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -16566,23 +16881,159 @@
                 },
                 {
                   "type": {
-                    "value": "AutoTyping::AutoTyping::IsFinished"
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "DialogCerita",
-                    "AutoTyping",
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
                   },
                   "parameters": [
                     "DialogCerita",
-                    "Text",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
                     "=",
-                    "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Gelang",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
                   ]
                 },
                 {
@@ -16595,20 +17046,25 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "0.5"
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
                   ]
                 },
                 {
@@ -16675,10 +17131,111 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "6"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah pertama ada gelang cantik yang dibuat sahabat Nenek. Fina memberikannya karena Fina sangat sayang sama Nenek.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::SetInterval"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "=",
+                    "0.07",
+                    ""
                   ]
                 },
                 {
@@ -16755,35 +17312,51 @@
                     "1.5",
                     ""
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "Text",
-                    "=",
-                    "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SoundPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "DialogCerita",
+                        "Text",
+                        "=",
+                        "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
+                      ]
+                    }
                   ]
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": ""
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "6"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -16796,23 +17369,159 @@
                 },
                 {
                   "type": {
-                    "value": "AutoTyping::AutoTyping::IsFinished"
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "DialogCerita",
-                    "AutoTyping",
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
                   },
                   "parameters": [
                     "DialogCerita",
-                    "Text",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
                     "=",
-                    "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Pita",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
                   ]
                 },
                 {
@@ -16825,20 +17534,25 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "0.5"
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
                   ]
                 },
                 {
@@ -16905,10 +17619,111 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "9"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah kedua adalah jepitan rambut berbentuk pita berwarna merah. Fina tahu Nenek suka sekali memakai pita.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::SetInterval"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "=",
+                    "0.09",
+                    ""
                   ]
                 },
                 {
@@ -16985,16 +17800,319 @@
                     "1.5",
                     ""
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SoundPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "DialogCerita",
+                        "Text",
+                        "=",
+                        "\"Dan yang terakhir, ada sepasang kaus kaki berwarna pink. Fina tahu, Nenek suka memakai kaus kaki pink saat jalan-jalan bersamanya. Jadi, Fina memberikan kaus kaki pink untuk Nenek.\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "9"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
                   },
                   "parameters": [
                     "DialogCerita",
-                    "Text",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
                     "=",
-                    "\"Dan yang terakhir, ada sepasang kaus kaki berwarna pink. Fina tahu, Nenek suka memakai kaus kaki pink saat jalan-jalan bersamanya. Jadi, Fina memberikan kaus kaki pink untuk Nenek.\""
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "KausKaki",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "11"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "11"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "12"
                   ]
                 }
               ]
@@ -17055,12 +18173,25 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "KlikDimanaPun",
                     "ButtonFSM",
-                    ""
+                    "yes"
                   ]
                 },
                 {
@@ -17192,6 +18323,7 @@
           "comment": ""
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
