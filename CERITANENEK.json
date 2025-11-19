@@ -1787,6 +1787,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "bgm saat nenek menceritakan - cerita nenek2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bgm saat nenek menceritakan - cerita nenek2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "[story] Hadiah terakhir adalah kamera. Ayah yang memilihnya karena Ayah tahu Nenek suka memotret2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[story] Hadiah terakhir adalah kamera. Ayah yang memilihnya karena Ayah tahu Nenek suka memotret2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "yuk! saatnya menjawab pertanyaan.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "yuk! saatnya menjawab pertanyaan.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6311,6 +6341,16 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlayMusicCanal"
               },
               "parameters": [
@@ -6385,7 +6425,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "1"
               ]
             },
             {
@@ -6406,7 +6446,7 @@
               "parameters": [
                 "KlikDimanaPun",
                 "ButtonFSM",
-                "no"
+                "yes"
               ]
             }
           ]
@@ -7050,6 +7090,20 @@
                     "Sekarang",
                     "=",
                     "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tmbl_Kembali",
+                    "Tween",
+                    "\"Keluar\"",
+                    "720",
+                    "\"easeOutQuad\"",
+                    "0.5",
+                    ""
                   ]
                 }
               ]
@@ -16093,6 +16147,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "bgm saat nenek menceritakan - cerita nenek2.wav",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -16191,384 +16258,424 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Urutan",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "KlikDimanaPun",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::Value"
-              },
-              "parameters": [
-                "DialogCerita",
-                "Text",
-                "=",
-                "\"Waktu nenek ulang tahun yang ke-15, nenek dapat banyak hadiah. Salah satunya dari sahabat nenek yang bernama Fina. Fina memberi tiga hadiah untuk nenek. Hadiahnya adalah…\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "sfx ketuk dimana saja - cerita nenek.wav",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "KlikDimanaPun",
-                "ButtonFSM",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Urutan",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "KlikDimanaPun",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "button skip scene - cerita nenek.wav",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Urutan",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-              },
-              "parameters": [
-                "Tangan",
-                "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "50",
-                "\"easeOutQuad\"",
-                "0.1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-              },
-              "parameters": [
-                "Background",
-                "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "50",
-                "\"easeOutQuad\"",
-                "0.1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AutoTyping::AutoTyping::RestartFromBeginning"
-              },
-              "parameters": [
-                "DialogCerita",
-                "AutoTyping",
-                "94"
-              ]
-            },
-            {
-              "type": {
-                "value": "AutoTyping::AutoTyping::ShowFullText"
-              },
-              "parameters": [
-                "DialogCerita",
-                "AutoTyping",
-                "95"
-              ]
-            },
-            {
-              "type": {
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Tangan",
-                "=",
-                "150"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "KotakHadiah",
-                "=",
-                "55"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Urutan",
-                "=",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Urutan",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "KlikDimanaPun",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "sfx ketuk dimana saja - cerita nenek.wav",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "KlikDimanaPun",
-                "ButtonFSM",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-              },
-              "parameters": [
-                "Tangan",
-                "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "100",
-                "\"easeOutQuad\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-              },
-              "parameters": [
-                "Background",
-                "Tween",
-                "\"Menggelap\"",
-                "0",
-                "",
-                "-1",
-                "100",
-                "\"easeOutQuad\"",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-              },
-              "parameters": [
-                "Tangan",
-                "Tween",
-                "\"Muncul1\"",
-                "1000",
-                "\"easeOutQuint\"",
-                "1.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-              },
-              "parameters": [
-                "KotakHadiah",
-                "Tween",
-                "\"Muncul1\"",
-                "900",
-                "\"easeOutQuint\"",
-                "1.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Urutan",
-                "=",
-                "3"
-              ]
-            }
-          ]
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "-=-=-",
+          "folded": true,
+          "name": "Cerita",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255,
+                "b": 172,
+                "g": 123,
+                "r": 57,
                 "textB": 0,
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Cerita"
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Waktu nenek ulang tahun yang ke-15, nenek dapat banyak hadiah. Salah satunya dari sahabat nenek yang bernama Fina. Fina memberi tiga hadiah untuk nenek. Hadiahnya adalah…\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
+                "b": 172,
+                "g": 123,
+                "r": 57,
                 "textB": 0,
                 "textG": 0,
                 "textR": 0
@@ -16674,8 +16781,8 @@
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
-                "b": 109,
-                "g": 230,
+                "b": 219,
+                "g": 249,
                 "r": 255,
                 "textB": 0,
                 "textG": 0,
@@ -16693,7 +16800,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -16866,7 +16973,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -16876,6 +16983,17 @@
                   "parameters": [
                     "KlikDimanaPun",
                     "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
                     ""
                   ]
                 },
@@ -16907,7 +17025,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "4"
+                    "5"
                   ]
                 },
                 {
@@ -17038,12 +17156,32 @@
                 },
                 {
                   "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Gelang",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "6"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PlaySoundCanal"
@@ -17131,12 +17269,20 @@
                 },
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Urutan",
                     "=",
-                    "6"
+                    "7"
                   ]
                 }
               ]
@@ -17144,8 +17290,8 @@
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
-                "b": 109,
-                "g": 230,
+                "b": 45,
+                "g": 45,
                 "r": 255,
                 "textB": 0,
                 "textG": 0,
@@ -17163,7 +17309,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "6"
+                    "7"
                   ]
                 },
                 {
@@ -17354,7 +17500,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "6"
+                    "7"
                   ]
                 },
                 {
@@ -17364,6 +17510,17 @@
                   "parameters": [
                     "KlikDimanaPun",
                     "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
                     ""
                   ]
                 },
@@ -17395,7 +17552,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "7"
+                    "8"
                   ]
                 },
                 {
@@ -17496,7 +17653,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "8"
+                    "9"
                   ]
                 }
               ]
@@ -17511,7 +17668,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "8"
+                    "9"
                   ]
                 },
                 {
@@ -17526,12 +17683,32 @@
                 },
                 {
                   "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Pita",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "10"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PlaySoundCanal"
@@ -17619,12 +17796,20 @@
                 },
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Urutan",
                     "=",
-                    "9"
+                    "11"
                   ]
                 }
               ]
@@ -17632,8 +17817,8 @@
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
-                "b": 109,
-                "g": 230,
+                "b": 193,
+                "g": 70,
                 "r": 255,
                 "textB": 0,
                 "textG": 0,
@@ -17651,7 +17836,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "9"
+                    "11"
                   ]
                 },
                 {
@@ -17837,6 +18022,16 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "11"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
@@ -17847,19 +18042,20 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "Urutan",
-                    "=",
-                    "9"
-                  ]
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -17883,7 +18079,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "10"
+                    "12"
                   ]
                 },
                 {
@@ -17984,7 +18180,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "11"
+                    "13"
                   ]
                 }
               ]
@@ -17999,7 +18195,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "11"
+                    "13"
                   ]
                 },
                 {
@@ -18014,12 +18210,32 @@
                 },
                 {
                   "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "KausKaki",
+                    "=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "14"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PlaySoundCanal"
@@ -18096,13 +18312,21 @@
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
-                    "KotakHadiah",
+                    "KausKaki",
                     "Tween",
                     "\"Muncul1\"",
                     "900",
                     "\"easeOutQuint\"",
                     "1.5",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
                   ]
                 },
                 {
@@ -18112,86 +18336,7 @@
                   "parameters": [
                     "Urutan",
                     "=",
-                    "12"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0,
-                "textB": 255,
-                "textG": 255,
-                "textR": 255
-              },
-              "comment": "Transisi -=-=- CERITA  → QUIZ -=-=-"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AutoTyping::AutoTyping::IsFinished"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "AutoTyping",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "Text",
-                    "=",
-                    "\"Dan yang terakhir, ada sepasang kaus kaki berwarna pink. Fina tahu, Nenek suka memakai kaus kaki pink saat jalan-jalan bersamanya. Jadi, Fina memberikan kaus kaki pink untuk Nenek.\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "sfx ketuk dimana saja - cerita nenek.wav",
-                    "1",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    "yes"
+                    "15"
                   ]
                 },
                 {
@@ -18200,68 +18345,6 @@
                   },
                   "parameters": [
                     "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-                  },
-                  "parameters": [
-                    "Tangan",
-                    "Tween",
-                    "\"Menggelap\"",
-                    "0",
-                    "",
-                    "-1",
-                    "100",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-                  },
-                  "parameters": [
-                    "Background",
-                    "Tween",
-                    "\"Menggelap\"",
-                    "0",
-                    "",
-                    "-1",
-                    "100",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Tangan",
-                    "Tween",
-                    "\"Muncul1\"",
-                    "1000",
-                    "\"easeOutQuint\"",
-                    "1.5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "KausKaki",
-                    "Tween",
-                    "\"Muncul1\"",
-                    "900",
-                    "\"easeOutQuint\"",
-                    "1.5",
-                    ""
                   ]
                 },
                 {
@@ -18279,6 +18362,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
+              "comment": "Transisi -=-=- CERITA  → QUIZ -=-=-"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -18771,8 +18866,8 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.30571220930232557,
-        "windowMask": false,
+        "zoomFactor": 0.546875,
+        "windowMask": true,
         "selectedLayer": "Warna"
       },
       "objectsGroups": [
@@ -20408,6 +20503,19 @@
                 "AutoTyping",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "yuk! saatnya menjawab pertanyaan.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -20900,14 +21008,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -20936,7 +21036,7 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
                   ]
                 }
@@ -21057,13 +21157,46 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "OpacityCapability::OpacityBehavior::Value"
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
                   },
                   "parameters": [
                     "Pertanyaan_Pilihan1",
-                    "Opacity",
-                    "=",
-                    "255"
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Tween",
+                    "\"Muncul\""
                   ]
                 },
                 {
@@ -21140,14 +21273,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -21176,7 +21301,7 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
                   ]
                 }
@@ -21297,13 +21422,46 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "OpacityCapability::OpacityBehavior::Value"
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
                   },
                   "parameters": [
                     "Pertanyaan_Pilihan2",
-                    "Opacity",
-                    "=",
-                    "255"
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Tween",
+                    "\"Muncul\""
                   ]
                 },
                 {
@@ -21379,14 +21537,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -21415,7 +21565,7 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
                   ]
                 }
@@ -21426,13 +21576,46 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "OpacityCapability::OpacityBehavior::Value"
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
                   },
                   "parameters": [
                     "Pertanyaan_Pilihan3",
-                    "Opacity",
-                    "=",
-                    "255"
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Tween",
+                    "\"Muncul\""
                   ]
                 },
                 {
@@ -21468,7 +21651,6 @@
               "comment": ""
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -21669,7 +21851,24 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan1",
                         ""
                       ]
                     }
@@ -21678,7 +21877,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -21879,7 +22077,24 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan2",
                         ""
                       ]
                     }
@@ -21888,7 +22103,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -22071,7 +22285,24 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan3",
                         ""
                       ]
                     }
@@ -22169,7 +22400,6 @@
               "comment": ""
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -22341,7 +22571,24 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan1",
                         ""
                       ]
                     }
@@ -22350,7 +22597,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -22522,7 +22768,24 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan2",
                         ""
                       ]
                     }
@@ -22531,7 +22794,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -22703,7 +22965,24 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan3",
                         ""
                       ]
                     }
@@ -23243,12 +23522,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3414448051948052,
+        "zoomFactor": 0.33030675247366154,
         "windowMask": false,
-        "selectedLayer": "Transisi"
+        "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Urutan",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -23526,7 +23811,7 @@
               "name": "AutoTyping",
               "type": "AutoTyping::AutoTyping",
               "Text": "Text",
-              "Interval": 0.05,
+              "Interval": 0.095,
               "CharacterJustAdded": false,
               "FullText": "",
               "TypedText": ""
@@ -23862,6 +24147,17 @@
             },
             {
               "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Petunjuk",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
@@ -23873,13 +24169,12 @@
             },
             {
               "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "Petunjuk",
-                "Opacity",
-                "=",
-                "0"
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "no"
               ]
             },
             {
@@ -23927,12 +24222,11 @@
             },
             {
               "type": {
-                "value": "ActivateBehavior"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "DialogCerita",
-                "AutoTyping",
-                "yes"
+                "",
+                "\"Dialog\""
               ]
             },
             {
@@ -23950,11 +24244,22 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "",
-                "\"Dialog\""
+                "DialogCerita",
+                "AutoTyping",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "KlikDimanaPun",
+                "ButtonFSM",
+                "yes"
               ]
             }
           ]
@@ -23964,28 +24269,16 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "-=-=-",
+          "name": "Cerita",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Cerita"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
+                "b": 185,
+                "g": 95,
+                "r": 231,
                 "textB": 0,
                 "textG": 0,
                 "textR": 0
@@ -23997,13 +24290,426 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Ayah dan Ibu memberikan sebuah kotak hadiah yang cukup besar. Warnanya pink cerah dan terlihat sangat cantik!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "=",
+                    "35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "=",
+                    "35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "KotakHadiah",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 185,
+                "g": 95,
+                "r": 231,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CompareTimer"
                   },
                   "parameters": [
                     "",
                     "\"Dialog\"",
                     ">=",
-                    "4"
+                    "8"
                   ]
                 },
                 {
@@ -24082,8 +24788,8 @@
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
-                "g": 230,
-                "r": 255,
+                "g": 195,
+                "r": 211,
                 "textB": 0,
                 "textG": 0,
                 "textR": 0
@@ -24095,12 +24801,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "KlikDimanaPun",
-                    "ButtonFSM",
-                    ""
+                    "Urutan",
+                    "=",
+                    "4"
                   ]
                 },
                 {
@@ -24134,82 +24840,25 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "KlikDimanaPun",
                     "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-                  },
-                  "parameters": [
-                    "Tangan",
-                    "Tween",
-                    "\"Menggelap\"",
-                    "0",
-                    "",
-                    "-1",
-                    "100",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-                  },
-                  "parameters": [
-                    "Background",
-                    "Tween",
-                    "\"Menggelap\"",
-                    "0",
-                    "",
-                    "-1",
-                    "100",
-                    "\"easeOutQuad\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Tangan",
-                    "Tween",
-                    "\"Muncul1\"",
-                    "1000",
-                    "\"easeOutQuint\"",
-                    "1.5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "KotakHadiah",
-                    "Tween",
-                    "\"Muncul1\"",
-                    "890",
-                    "\"easeOutQuint\"",
-                    "1.5",
-                    ""
+                    "yes"
                   ]
                 },
                 {
@@ -24218,6 +24867,29 @@
                   },
                   "parameters": [
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah pertama adalah topi untuk ke pantai. Ibu yang memilihnya karena nanti Ayah ingin mengajak Nenek ke pantai.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::SetInterval"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "=",
+                    "0.085",
+                    ""
                   ]
                 },
                 {
@@ -24294,35 +24966,22 @@
                     "1.5",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "Text",
-                    "=",
-                    "\"Hadiah pertama adalah topi untuk ke pantai. Ibu yang memilihnya karena nanti Ayah ingin mengajak Nenek ke pantai.\""
-                  ]
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": ""
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "4"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -24335,23 +24994,13 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
                     "value": "AutoTyping::AutoTyping::IsFinished"
                   },
                   "parameters": [
                     "DialogCerita",
                     "AutoTyping",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "Text",
-                    "=",
-                    "\"Hadiah pertama adalah topi untuk ke pantai. Ibu yang memilihnya karena nanti Ayah ingin mengajak Nenek ke pantai.\""
                   ]
                 },
                 {
@@ -24364,7 +25013,146 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Topi",
+                    "=",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
                     "KlikDimanaPun",
@@ -24374,10 +25162,53 @@
                 },
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "PosY"
                   },
                   "parameters": [
-                    "0.5"
+                    "Topi",
+                    "=",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
                   ]
                 },
                 {
@@ -24436,7 +25267,7 @@
                     "Topi",
                     "Tween",
                     "\"Muncul1\"",
-                    "890",
+                    "900",
                     "\"easeOutQuint\"",
                     "1.5",
                     ""
@@ -24447,7 +25278,127 @@
                     "value": "Wait"
                   },
                   "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "7"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 185,
+                "g": 70,
+                "r": 253,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah pertama adalah topi untuk ke pantai. Ibu yang memilihnya karena nanti Ayah ingin mengajak Nenek ke pantai.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah kedua adalah sepatu perpaduan antara warna pink dan coklat. Sepatu ini juga dipilih oleh Ibu.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::SetInterval"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "=",
+                    "0.095",
+                    ""
                   ]
                 },
                 {
@@ -24524,47 +25475,22 @@
                     "1.5",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "Text",
-                    "=",
-                    "\"Hadiah kedua adalah sepatu perpaduan antara warna pink dan coklat. Sepatu ini juga dipilih oleh Ibu.\""
-                  ]
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": ""
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0,
-                "textB": 255,
-                "textG": 255,
-                "textR": 255
-              },
-              "comment": "Transisi -=-=- CERITA  → QUIZ -=-=-"
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "7"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -24573,6 +25499,332 @@
                     "KlikDimanaPun",
                     "ButtonFSM",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Sepatu",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "9"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Sepatu",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "1000",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Sepatu",
+                    "Tween",
+                    "\"Muncul1\"",
+                    "900",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "11"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 205,
+                "g": 142,
+                "r": 236,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "11"
                   ]
                 },
                 {
@@ -24593,7 +25845,7 @@
                     "DialogCerita",
                     "Text",
                     "=",
-                    "\"Hadiah terakhir adalah kamera. Ayah yang memilihnya karena Ayah tahu Nenek suka memotret.\""
+                    "\"Hadiah kedua adalah sepatu perpaduan antara warna pink dan coklat. Sepatu ini juga dipilih oleh Ibu.\""
                   ]
                 },
                 {
@@ -24606,7 +25858,151 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Hadiah terakhir adalah kamera. Ayah yang memilihnya karena Ayah tahu Nenek suka memotret.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::SetInterval"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "=",
+                    "0.11",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "[story] Hadiah terakhir adalah kamera. Ayah yang memilihnya karena Ayah tahu Nenek suka memotret2.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "150",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Kamera",
+                    "Tween",
+                    "\"Muncul2\"",
+                    "60",
+                    "\"easeOutQuint\"",
+                    "1.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "11"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
                     "KlikDimanaPun",
@@ -24616,10 +26012,221 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.5"
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Tangan",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Kamera",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "13"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "13"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Kamera",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "14"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
                   ]
                 },
                 {
@@ -24686,6 +26293,32 @@
                 },
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
@@ -24699,6 +26332,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
+              "comment": "Transisi -=-=- CERITA  → QUIZ -=-=-"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -24743,6 +26388,7 @@
           "comment": ""
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -26726,6 +28372,19 @@
                 "AutoTyping",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "yuk! saatnya menjawab pertanyaan.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -27217,14 +28876,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -27255,6 +28906,40 @@
                     "\"easeOutQuad\"",
                     "1",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -27344,14 +29029,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
@@ -27503,6 +29180,40 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "Tween::HasFinished"
                   },
                   "parameters": [
@@ -27583,14 +29294,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
@@ -27733,6 +29436,40 @@
                         ""
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -29515,6 +31252,11 @@
           "name": "Sekarang",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "Urutan",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -30144,6 +31886,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "bgm saat nenek menceritakan - cerita nenek2.wav",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -30294,6 +32049,15 @@
             },
             {
               "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Dialog\""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -30314,15 +32078,6 @@
                 "AutoTyping",
                 "yes"
               ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Dialog\""
-              ]
             }
           ]
         },
@@ -30331,37 +32086,23 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "-=-=-",
+          "name": "Cerita",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Cerita"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": ""
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
                 {
                   "type": {
                     "value": "CompareTimer"
@@ -30370,7 +32111,7 @@
                     "",
                     "\"Dialog\"",
                     ">=",
-                    "4"
+                    "5"
                   ]
                 },
                 {
@@ -30442,9 +32183,9 @@
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
+                "b": 172,
+                "g": 123,
+                "r": 57,
                 "textB": 0,
                 "textG": 0,
                 "textR": 0
@@ -30456,21 +32197,21 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
                     "KlikDimanaPun",
                     "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AutoTyping::AutoTyping::IsFinished"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "AutoTyping",
                     ""
                   ]
                 },
@@ -30495,10 +32236,302 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::AutoTyping::IsFinished"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.5"
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "50",
+                    "\"easeOutQuad\"",
+                    "0.1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Planet1",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Planet2",
+                    "=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Planet3",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Planet4",
+                    "=",
+                    "305"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Planet1",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Planet2",
+                    "=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Planet3",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Planet4",
+                    "=",
+                    "305"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
                   ]
                 },
                 {
@@ -30564,7 +32597,7 @@
                   "parameters": [
                     "Background",
                     "Tween",
-                    "\"Menggelap\"",
+                    "\"GELAPPP\"",
                     "0",
                     "",
                     "-1",
@@ -30573,12 +32606,52 @@
                     "1",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "4"
+                  ]
                 }
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 45,
+                "g": 45,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "4"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Tween::HasFinished"
@@ -30586,7 +32659,18 @@
                   "parameters": [
                     "Background",
                     "Tween",
-                    "\"Menggelap\""
+                    "\"GELAPPP\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "Text",
+                    "=",
+                    "\"Nenek dan Sekar pergi ke museum planet di Jakarta. Di sana ada banyak patung planet dengan berbagai bentuk dan ukuran. Salah satunya adalah patung planet Bumi.\""
                   ]
                 },
                 {
@@ -30599,13 +32683,33 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AutoTyping::AutoTyping::SetInterval"
                   },
                   "parameters": [
                     "DialogCerita",
                     "AutoTyping",
                     "=",
-                    "0.95",
+                    "0.098",
                     ""
                   ]
                 },
@@ -30691,24 +32795,32 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "6"
+                  ]
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0,
-                "textB": 255,
-                "textG": 255,
-                "textR": 255
-              },
-              "comment": "Transisi -=-=- CERITA  → QUIZ -=-=-"
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "6"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -30721,23 +32833,13 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
                     "value": "AutoTyping::AutoTyping::IsFinished"
                   },
                   "parameters": [
                     "DialogCerita",
                     "AutoTyping",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::Value"
-                  },
-                  "parameters": [
-                    "DialogCerita",
-                    "Text",
-                    "=",
-                    "\"Bumi adalah planet tempat kita tinggal.\nBumi berbentuk bulat seperti bola. Di Bumi, ada tanah, laut, udara, tumbuhan, hewan, dan manusia. Karena itu, Bumi disebut planet yang bisa dihuni.\""
                   ]
                 },
                 {
@@ -30750,7 +32852,102 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button skip scene - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::RestartFromBeginning"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "94"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AutoTyping::AutoTyping::ShowFullText"
+                  },
+                  "parameters": [
+                    "DialogCerita",
+                    "AutoTyping",
+                    "95"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Bumi",
+                    "=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
                   "parameters": [
                     "KlikDimanaPun",
@@ -30760,16 +32957,78 @@
                 },
                 {
                   "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "PetunjukScene3",
-                    "Tween",
-                    "\"Hilang\"",
-                    "0",
-                    "\"easeInQuad\"",
-                    "0.5",
+                    "Urutan",
+                    "=",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sfx ketuk dimana saja - cerita nenek.wav",
+                    "1",
+                    "",
+                    "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KlikDimanaPun",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                  },
+                  "parameters": [
+                    "Background",
+                    "Tween",
+                    "\"Menggelap\"",
+                    "0",
+                    "",
+                    "-1",
+                    "100",
+                    "\"easeOutQuad\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Urutan",
+                    "=",
+                    "10"
                   ]
                 },
                 {
@@ -30795,6 +33054,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0,
+                "textB": 255,
+                "textG": 255,
+                "textR": 255
+              },
+              "comment": "Transisi -=-=- CERITA  → QUIZ -=-=-"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -30854,16 +33125,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "KlikDimanaPun",
-                "ButtonFSM",
-                "no"
-              ]
-            },
             {
               "type": {
                 "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
@@ -32487,6 +34748,19 @@
                 "AutoTyping",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "yuk! saatnya menjawab pertanyaan.wav",
+                "1",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -32978,14 +35252,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -33014,8 +35280,42 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -33041,14 +35341,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -33114,14 +35406,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -33150,8 +35434,42 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "PapanPertanyaan2",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -33177,14 +35495,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -33250,14 +35560,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -33286,8 +35588,42 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -33313,14 +35649,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -33386,14 +35714,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -33422,8 +35742,42 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -33449,14 +35803,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -33522,14 +35868,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                   },
                   "parameters": [
@@ -33558,8 +35896,42 @@
                     "\"Muncul\"",
                     "255",
                     "\"easeOutQuad\"",
-                    "1",
+                    "0.5",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "Tween",
+                    "\"Muncul\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -33587,14 +35959,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -33618,7 +35982,6 @@
               "comment": ""
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -33662,6 +36025,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -33680,16 +36053,6 @@
                   "parameters": [
                     "Poin_Bintang",
                     "Animation",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
                     "+",
                     "1"
                   ]
@@ -33729,16 +36092,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan1",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -33801,8 +36154,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -33810,7 +36198,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -33854,6 +36241,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -33872,16 +36269,6 @@
                   "parameters": [
                     "Poin_Bintang",
                     "Animation",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
                     "+",
                     "1"
                   ]
@@ -33921,16 +36308,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan2",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -33993,8 +36370,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -34002,7 +36414,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34046,6 +36457,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -34064,16 +36485,6 @@
                   "parameters": [
                     "Poin_Bintang",
                     "Animation",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
                     "+",
                     "1"
                   ]
@@ -34113,16 +36524,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan3",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -34185,8 +36586,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan3",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -34194,7 +36630,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34238,6 +36673,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -34256,16 +36701,6 @@
                   "parameters": [
                     "Poin_Bintang",
                     "Animation",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
                     "+",
                     "1"
                   ]
@@ -34305,16 +36740,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan4",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -34377,8 +36802,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan4",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -34386,7 +36846,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34430,6 +36889,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -34448,16 +36917,6 @@
                   "parameters": [
                     "Poin_Bintang",
                     "Animation",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
                     "+",
                     "1"
                   ]
@@ -34497,16 +36956,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan5",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -34569,8 +37018,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -34667,7 +37151,6 @@
               "comment": ""
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34711,6 +37194,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan1",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -34720,16 +37213,6 @@
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
-                    "+",
-                    "1"
                   ]
                 },
                 {
@@ -34767,16 +37250,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan1",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -34839,8 +37312,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -34848,7 +37356,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -34892,6 +37399,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan2",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -34901,16 +37418,6 @@
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
-                    "+",
-                    "1"
                   ]
                 },
                 {
@@ -34948,16 +37455,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan2",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -35020,8 +37517,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -35029,7 +37561,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35073,6 +37604,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan3",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -35082,16 +37623,6 @@
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
-                    "+",
-                    "1"
                   ]
                 },
                 {
@@ -35129,16 +37660,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan3",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -35201,8 +37722,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan3",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -35210,7 +37766,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35254,6 +37809,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan4",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -35263,16 +37828,6 @@
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
-                    "+",
-                    "1"
                   ]
                 },
                 {
@@ -35310,16 +37865,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan4",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -35382,8 +37927,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan4",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -35391,7 +37971,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -35435,6 +38014,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Pertanyaan_Pilihan5",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlaySoundCanal"
                   },
                   "parameters": [
@@ -35444,16 +38033,6 @@
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Pertanyaan_SaatIni",
-                    "+",
-                    "1"
                   ]
                 },
                 {
@@ -35491,16 +38070,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Pertanyaan_Pilihan5",
-                        "ButtonFSM",
-                        "no"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "PlaySoundCanal"
@@ -35563,8 +38132,43 @@
                         "\"Hilang\"",
                         "0",
                         "\"easeOutQuad\"",
-                        "1",
+                        "0.5",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pertanyaan_Pilihan5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Pertanyaan_SaatIni",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
